@@ -7,6 +7,7 @@ import Text.Blaze (Html)
 import Text.Blaze.Renderer.Utf8 (renderHtml)
 import Snap.Types (MonadSnap (..), addHeader, modifyResponse, writeLBS)
 
+-- | Write some 'Html' as response
 blaze :: MonadSnap m => Html -> m ()
 blaze response = do
     modifyResponse $ addHeader "Content-Type" "text/html; charset=UTF-8"
