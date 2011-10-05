@@ -5,7 +5,7 @@ Description:   blaze-html integration for Snap
 Homepage:      http://github.com/jaspervdj/snap-blaze
 License:       BSD3
 License-file:  LICENSE
-Author:        Jasper Van der Jeugt
+Author:        Jasper Van der Jeugt <m@jaspervdj.be>
 Maintainer:    Jasper Van der Jeugt <m@jaspervdj.be>
 Category:      Network
 Build-type:    Simple
