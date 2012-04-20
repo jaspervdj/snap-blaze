@@ -21,7 +21,7 @@ Library
   
   Build-depends:       
     base       >= 4   && < 5,
-    blaze-html >= 0.4 && < 0.5,
+    blaze-html >= 0.5 && < 0.6,
     snap-core  >= 0.6 && < 0.9
 
 Source-repository head
